@@ -1,0 +1,124 @@
+[2026-07-30 00:02:30] [INFO] Starting Module: โมดูล 1: ทำความสะอาดไฟล์ขยะระบบ (System Junk)
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์ชั่วคราวของผู้ใช้ (User Temp) (C:\Users\nattc\AppData\Local\Temp\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ ไฟล์ชั่วคราวของผู้ใช้ (User Temp) จำนวน 628 ไฟล์ ประหยัดพื้นที่ 127.89 MB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์ชั่วคราวของ Windows (C:\WINDOWS\Temp\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ ไฟล์ชั่วคราวของ Windows จำนวน 41 ไฟล์ ประหยัดพื้นที่ 1.12 GB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: แคชการอัปเดต Windows (C:\WINDOWS\SoftwareDistribution\Download\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ แคชการอัปเดต Windows จำนวน 3 ไฟล์ ประหยัดพื้นที่ 1.09 MB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: แคชภาพขนาดเล็ก (Thumbnail Cache) (C:\Users\nattc\AppData\Local\Microsoft\Windows\Explorer\thumbcache_*.db)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ แคชภาพขนาดเล็ก (Thumbnail Cache) จำนวน 15 ไฟล์ ประหยัดพื้นที่ 30.44 MB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์รายงานข้อผิดพลาด (Windows Error Reports) (C:\ProgramData\Microsoft\Windows\WER\ReportArchive\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ ไฟล์รายงานข้อผิดพลาด (Windows Error Reports) จำนวน 2 ไฟล์ ประหยัดพื้นที่ 100.25 KB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์บันทึกระบบ (System Logs - CBS) (C:\WINDOWS\Logs\CBS\*.log)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ ไฟล์บันทึกระบบ (System Logs - CBS) จำนวน 1 ไฟล์ ประหยัดพื้นที่ 4.70 MB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์จัดส่งการอัปเดต (Delivery Optimization) (C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ ไฟล์จัดส่งการอัปเดต (Delivery Optimization) จำนวน 42 ไฟล์ ประหยัดพื้นที่ 11.01 GB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: แคชฟอนต์ (Font Cache) (C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\FontCache\*.dat)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ แคชฟอนต์ (Font Cache) จำนวน 7 ไฟล์ ประหยัดพื้นที่ 48.54 MB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์แคชตัวติดตั้งแพตช์ (Patch Cache) (C:\WINDOWS\Installer\$\*)
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: แคช Windows Defender (C:\ProgramData\Microsoft\Windows Defender\Scans\History\Results\*)
+[2026-07-30 00:02:30] [SUCCESS] ลบไฟล์ขยะ แคช Windows Defender จำนวน 35 ไฟล์ ประหยัดพื้นที่ 429.42 KB
+[2026-07-30 00:02:30] [INFO] Cleaning junk category: ไฟล์ข้อมูลหน่วยความจำขัดข้อง (Crash Dumps) (C:\Users\nattc\AppData\Local\CrashDumps\*)
+[2026-07-30 00:02:30] [SUCCESS] [พรีวิว] จะทำการล้างถังขยะ
+[2026-07-30 00:02:30] [SUCCESS] [พรีวิว] จะทำการล้างแคช DNS
+[2026-07-30 00:02:30] [SUCCESS] ลบแคช Google Chrome Cache จำนวน 836 ไฟล์ ประหยัดพื้นที่ 125.66 MB
+[2026-07-30 00:02:30] [SUCCESS] Module 1 Complete: Freed 12.46 GB (1610 files)
+[2026-07-30 00:02:30] [INFO] Starting Module: โมดูล 2: ตรวจสอบและซ่อมแซมรีจิสทรีและไฟล์ระบบ
+[2026-07-30 00:02:30] [INFO] Running SFC /scannow
+[2026-07-30 00:02:30] [SUCCESS] [พรีวิว] จะรันคำสั่ง sfc /scannow
+[2026-07-30 00:02:30] [INFO] Running DISM /Online /Cleanup-Image /RestoreHealth
+[2026-07-30 00:02:30] [SUCCESS] [พรีวิว] จะรันคำสั่ง DISM /Online /Cleanup-Image /RestoreHealth
+[2026-07-30 00:02:30] [INFO] Orphaned Uninstall entry found: {6468C4A5-E47E-405F-B675-A70A70983EA6} (HP Connection Optimizer)
+[2026-07-30 00:02:30] [SUCCESS] ตรวจพบและทำความสะอาดรายการรีจิสทรีที่ตกค้างจำนวน 1 รายการ
+[2026-07-30 00:02:30] [SUCCESS] Module 2 Complete: Fixed 1 registry/system issues
+[2026-07-30 00:02:30] [INFO] Starting Module: โมดูล 3: ตรวจสอบโปรแกรมที่เริ่มทำงานอัตโนมัติ (Startup Optimization)
+[2026-07-30 00:02:32] [INFO] Module 3 Complete: Startup apps and services analyzed
+[2026-07-30 00:02:32] [INFO] Starting Module: โมดูล 4: ปรับแต่งประสิทธิภาพของระบบ (Performance Tuning)
+[2026-07-30 00:02:32] [SUCCESS] [พรีวิว] จะทำการปรับแต่ง Visual Effects สำหรับประสิทธิภาพ
+[2026-07-30 00:02:32] [SUCCESS] [พรีวิว] จะพยายามเปิดใช้แผนพลังงาน High Performance
+[2026-07-30 00:02:33] [SUCCESS] [พรีวิว] จะทำการ Optimize ไดรฟ์ (SSD)
+[2026-07-30 00:02:33] [SUCCESS] [พรีวิว] จะล้าง Standby Memory List
+[2026-07-30 00:02:33] [SUCCESS] Module 4 Complete: Performance tuned
+[2026-07-30 00:02:33] [INFO] Starting Module: สแกนความปลอดภัย (Scan Security)
+[2026-07-30 00:02:33] [INFO] Starting security scan
+[2026-07-30 00:03:05] [SUCCESS] ไฟล์ hosts ปกติ (ไม่พบรายการแปลกปลอม)
+[2026-07-30 00:03:05] [SUCCESS] ตรวจสอบ DNS เสร็จสิ้น (โปรดพิจารณาว่า DNS แปลกปลอมหรือไม่)
+[2026-07-30 00:03:05] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: SecurityHealth -> C:\WINDOWS\system32\SecurityHealthSystray.exe
+[2026-07-30 00:03:05] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: RtkAudUService -> "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_86f7e28508ce14c7\RtkAudUService64.exe" -background
+[2026-07-30 00:03:05] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: Teams -> "C:\Users\nattc\AppData\Local\Microsoft\WindowsApps\MSTeams_8wekyb3d8bbwe\ms-teams.exe" msteams:system-initiated
+[2026-07-30 00:03:05] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: OneDrive -> "C:\Users\nattc\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+[2026-07-30 00:03:05] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: RapooOfficeDev -> RapooOfficeDev.exe -mini
+[2026-07-30 00:03:06] [SUCCESS] ไม่พบ Task ที่น่าสงสัย
+[2026-07-30 00:03:06] [INFO] Starting Module: ปิดการทำงานพื้นหลัง (Optimize Background)
+[2026-07-30 00:03:06] [INFO] Starting background optimization
+[2026-07-30 00:03:26] [INFO] Starting Module: วิเคราะห์พื้นที่ฮาร์ดดิสก์ (Analyze Disk Space)
+[2026-07-30 00:03:26] [INFO] Starting disk space analysis
+[2026-07-30 00:04:26] [INFO] Starting Module: ปรับแต่งเครือข่าย (Optimize Network)
+[2026-07-30 00:04:26] [INFO] Starting network optimization
+[2026-07-30 00:04:45] [INFO] Starting Module: ตั้งค่าการบำรุงรักษาอัตโนมัติ (Setup Auto Maintenance)
+[2026-07-30 00:04:45] [INFO] Starting auto maintenance setup
+[2026-07-30 00:04:45] [INFO] Starting Module: ลบโปรแกรมขยะ (Remove Bloatware)
+[2026-07-30 00:04:45] [INFO] Starting bloatware removal
+[2026-07-30 00:04:45] [SUCCESS] ยอดเยี่ยม! ไม่พบโปรแกรม Bloatware หรือโปรแกรมขยะในระบบ
+[2026-07-30 00:04:45] [INFO] Starting Module: รีดพลังเกม & เพิ่ม FPS
+[2026-07-30 00:04:45] [INFO] Starting Gaming & FPS Optimization (Thai)
+[2026-07-30 00:04:45] [INFO] Starting Module: ล้างไฟล์ขยะเบราว์เซอร์แบบลึกซึ้ง
+[2026-07-30 00:04:45] [INFO] Starting Deep Browser Cleaner (Thai)
+[2026-07-30 00:04:46] [INFO] Starting Module: บล็อกการแอบเก็บข้อมูล (Telemetry)
+[2026-07-30 00:04:46] [INFO] Starting Telemetry Blocker (Thai)
+[2026-07-30 00:04:46] [INFO] Starting Module: โมดูล 5: สรุปผลการทำความสะอาดและตรวจสอบระบบ
+[2026-07-30 00:04:47] [INFO] Generated Final Report
+[2026-07-30 00:04:47] [INFO] Total Cleaned: 12.46 GB, Total Fixed: 1
+[2026-07-30 00:05:02] [INFO] Starting Module: โมดูล 1: ทำความสะอาดไฟล์ขยะระบบ (System Junk)
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์ชั่วคราวของผู้ใช้ (User Temp) (C:\Users\nattc\AppData\Local\Temp\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ ไฟล์ชั่วคราวของผู้ใช้ (User Temp) จำนวน 629 ไฟล์ ประหยัดพื้นที่ 127.89 MB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์ชั่วคราวของ Windows (C:\WINDOWS\Temp\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ ไฟล์ชั่วคราวของ Windows จำนวน 41 ไฟล์ ประหยัดพื้นที่ 1.12 GB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: แคชการอัปเดต Windows (C:\WINDOWS\SoftwareDistribution\Download\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ แคชการอัปเดต Windows จำนวน 3 ไฟล์ ประหยัดพื้นที่ 1.09 MB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: แคชภาพขนาดเล็ก (Thumbnail Cache) (C:\Users\nattc\AppData\Local\Microsoft\Windows\Explorer\thumbcache_*.db)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ แคชภาพขนาดเล็ก (Thumbnail Cache) จำนวน 15 ไฟล์ ประหยัดพื้นที่ 30.44 MB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์รายงานข้อผิดพลาด (Windows Error Reports) (C:\ProgramData\Microsoft\Windows\WER\ReportArchive\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ ไฟล์รายงานข้อผิดพลาด (Windows Error Reports) จำนวน 2 ไฟล์ ประหยัดพื้นที่ 100.25 KB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์บันทึกระบบ (System Logs - CBS) (C:\WINDOWS\Logs\CBS\*.log)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ ไฟล์บันทึกระบบ (System Logs - CBS) จำนวน 1 ไฟล์ ประหยัดพื้นที่ 4.70 MB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์จัดส่งการอัปเดต (Delivery Optimization) (C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ ไฟล์จัดส่งการอัปเดต (Delivery Optimization) จำนวน 42 ไฟล์ ประหยัดพื้นที่ 11.01 GB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: แคชฟอนต์ (Font Cache) (C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\FontCache\*.dat)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ แคชฟอนต์ (Font Cache) จำนวน 7 ไฟล์ ประหยัดพื้นที่ 48.54 MB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์แคชตัวติดตั้งแพตช์ (Patch Cache) (C:\WINDOWS\Installer\$\*)
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: แคช Windows Defender (C:\ProgramData\Microsoft\Windows Defender\Scans\History\Results\*)
+[2026-07-30 00:05:02] [SUCCESS] ลบไฟล์ขยะ แคช Windows Defender จำนวน 35 ไฟล์ ประหยัดพื้นที่ 429.42 KB
+[2026-07-30 00:05:02] [INFO] Cleaning junk category: ไฟล์ข้อมูลหน่วยความจำขัดข้อง (Crash Dumps) (C:\Users\nattc\AppData\Local\CrashDumps\*)
+[2026-07-30 00:05:02] [SUCCESS] [พรีวิว] จะทำการล้างถังขยะ
+[2026-07-30 00:05:02] [SUCCESS] [พรีวิว] จะทำการล้างแคช DNS
+[2026-07-30 00:05:02] [SUCCESS] ลบแคช Google Chrome Cache จำนวน 836 ไฟล์ ประหยัดพื้นที่ 125.66 MB
+[2026-07-30 00:05:02] [SUCCESS] Module 1 Complete: Freed 12.46 GB (1611 files)
+[2026-07-30 00:05:02] [INFO] Starting Module: โมดูล 2: ตรวจสอบและซ่อมแซมรีจิสทรีและไฟล์ระบบ
+[2026-07-30 00:05:02] [INFO] Running SFC /scannow
+[2026-07-30 00:05:02] [SUCCESS] [พรีวิว] จะรันคำสั่ง sfc /scannow
+[2026-07-30 00:05:02] [INFO] Running DISM /Online /Cleanup-Image /RestoreHealth
+[2026-07-30 00:05:02] [SUCCESS] [พรีวิว] จะรันคำสั่ง DISM /Online /Cleanup-Image /RestoreHealth
+[2026-07-30 00:05:02] [INFO] Orphaned Uninstall entry found: {6468C4A5-E47E-405F-B675-A70A70983EA6} (HP Connection Optimizer)
+[2026-07-30 00:05:02] [SUCCESS] ตรวจพบและทำความสะอาดรายการรีจิสทรีที่ตกค้างจำนวน 1 รายการ
+[2026-07-30 00:05:02] [SUCCESS] Module 2 Complete: Fixed 2 registry/system issues
+[2026-07-30 00:05:02] [INFO] Starting Module: โมดูล 3: ตรวจสอบโปรแกรมที่เริ่มทำงานอัตโนมัติ (Startup Optimization)
+[2026-07-30 00:05:03] [INFO] Module 3 Complete: Startup apps and services analyzed
+[2026-07-30 00:05:03] [INFO] Starting Module: โมดูล 4: ปรับแต่งประสิทธิภาพของระบบ (Performance Tuning)
+[2026-07-30 00:05:03] [SUCCESS] [พรีวิว] จะทำการปรับแต่ง Visual Effects สำหรับประสิทธิภาพ
+[2026-07-30 00:05:03] [SUCCESS] [พรีวิว] จะพยายามเปิดใช้แผนพลังงาน High Performance
+[2026-07-30 00:05:03] [SUCCESS] [พรีวิว] จะทำการ Optimize ไดรฟ์ (SSD)
+[2026-07-30 00:05:03] [SUCCESS] [พรีวิว] จะล้าง Standby Memory List
+[2026-07-30 00:05:03] [SUCCESS] Module 4 Complete: Performance tuned
+[2026-07-30 00:05:03] [INFO] Starting Module: สแกนความปลอดภัย (Scan Security)
+[2026-07-30 00:05:03] [INFO] Starting security scan
+[2026-07-30 00:05:08] [SUCCESS] ไฟล์ hosts ปกติ (ไม่พบรายการแปลกปลอม)
+[2026-07-30 00:05:08] [SUCCESS] ตรวจสอบ DNS เสร็จสิ้น (โปรดพิจารณาว่า DNS แปลกปลอมหรือไม่)
+[2026-07-30 00:05:08] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: SecurityHealth -> C:\WINDOWS\system32\SecurityHealthSystray.exe
+[2026-07-30 00:05:08] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: RtkAudUService -> "C:\WINDOWS\System32\DriverStore\FileRepository\realtekservice.inf_amd64_86f7e28508ce14c7\RtkAudUService64.exe" -background
+[2026-07-30 00:05:08] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: Teams -> "C:\Users\nattc\AppData\Local\Microsoft\WindowsApps\MSTeams_8wekyb3d8bbwe\ms-teams.exe" msteams:system-initiated
+[2026-07-30 00:05:08] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: OneDrive -> "C:\Users\nattc\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+[2026-07-30 00:05:08] [WARNING] พบโปรแกรมที่น่าสงสัยใน Registry: RapooOfficeDev -> RapooOfficeDev.exe -mini
+[2026-07-30 00:05:09] [SUCCESS] ไม่พบ Task ที่น่าสงสัย
+[2026-07-30 00:05:09] [INFO] Starting Module: ปิดการทำงานพื้นหลัง (Optimize Background)
+[2026-07-30 00:05:09] [INFO] Starting background optimization

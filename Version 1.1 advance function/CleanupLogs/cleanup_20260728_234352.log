@@ -1,0 +1,23 @@
+[2026-07-28 23:43:55] [INFO] Starting Module: Module 1: Clean system junk files (System Junk)
+[2026-07-28 23:43:55] [INFO] Cleaning junk category: User temporary files (User Temp) (C:\Users\NATTAP~1\AppData\Local\Temp\*)
+[2026-07-28 23:43:55] [SUCCESS] Delete junk files User temporary files (User Temp) quantity 1 File saves space 452.77 KB
+[2026-07-28 23:43:55] [INFO] Cleaning junk category: Temporary file of Windows (C:\WINDOWS\Temp\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Update cache Windows (C:\WINDOWS\SoftwareDistribution\Download\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Small image cache (Thumbnail Cache) (C:\Users\Nattapong\AppData\Local\Microsoft\Windows\Explorer\thumbcache_*.db)
+[2026-07-28 23:43:56] [SUCCESS] Delete junk files Small image cache (Thumbnail Cache) quantity 15 File saves space 3.01 MB
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Error report file (Windows Error Reports) (C:\ProgramData\Microsoft\Windows\WER\ReportArchive\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: System log files (System Logs - CBS) (C:\WINDOWS\Logs\CBS\*.log)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Update delivery file (Delivery Optimization) (C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Font cache (Font Cache) (C:\WINDOWS\ServiceProfiles\LocalService\AppData\Local\FontCache\*.dat)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Patch installer cache files (Patch Cache) (C:\WINDOWS\Installer\$\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Cache Windows Defender (C:\ProgramData\Microsoft\Windows Defender\Scans\History\Results\*)
+[2026-07-28 23:43:56] [INFO] Cleaning junk category: Memory data file crashed (Crash Dumps) (C:\Users\Nattapong\AppData\Local\CrashDumps\*)
+[2026-07-28 23:43:56] [SUCCESS] The trash can has been emptied.
+[2026-07-28 23:43:57] [SUCCESS] Successfully cleared DNS cache.
+[2026-07-28 23:44:14] [SUCCESS] Delete cache Mozilla Firefox Cache quantity 1707 File saves space 110.01 MB
+[2026-07-28 23:44:14] [SUCCESS] Delete cache Brave Browser Cache quantity 34 File saves space 10.61 MB
+[2026-07-28 23:44:14] [SUCCESS] Module 1 Complete: Freed 124.07 MB (1757 files)
+[2026-07-28 23:44:37] [INFO] Starting Module: Module 2: Check and repair registry and system files
+[2026-07-28 23:44:37] [INFO] Running SFC /scannow
+[2026-07-28 23:51:34] [WARNING] SFC: Corrupted files were found but could not be fully repaired. Please check the log for details.
+[2026-07-28 23:51:34] [INFO] Running DISM /Online /Cleanup-Image /RestoreHealth
